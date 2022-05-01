@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="Makarov">
+    
+    <title>
+        
+            《Linux就该这么学》笔记 |
+        
+        Makarov&#39;s Blog
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <link rel="shortcut icon" href="/images/logo.svg">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/css/font-awesome.min.css">
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {};
+    KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"en","path":"search.json"};
+    KEEP.theme_config = {"toc":{"enable":true,"number":true,"expand_all":true,"init_open":true},"style":{"primary_color":"#33CC99","avatar":"/images/avatar.svg","favicon":"/images/logo.svg","article_img_align":"left","left_side_width":"260px","content_max_width":"920px","hover":{"shadow":true,"scale":true},"first_screen":{"enable":true,"background_img":"/images/bg.svg","description":"挪威的森林"},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":false}}},"local_search":{"enable":true,"preload":true},"code_copy":{"enable":true,"style":"default"},"pjax":{"enable":true},"lazyload":{"enable":true},"version":"3.4.5"};
+    KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"};
+  </script>
+<meta name="generator" content="Hexo 6.1.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+        <span class="scroll-progress-bar"></span>
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+        <span class="pjax-progress-icon">
+            <i class="fas fa-circle-notch fa-spin"></i>
+        </span>
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            <header class="header-wrapper">
+
+    <div class="header-content">
+        <div class="left">
+            
+            <a class="logo-title" href="/">
+                Makarov&#39;s Blog
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                HOME
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/archives"
+                            >
+                                ARCHIVES
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/categories"
+                            >
+                                CATEGORIES
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/tags"
+                            >
+                                TAGS
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/">HOME</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives">ARCHIVES</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/categories">CATEGORIES</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/tags">TAGS</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="article-content-container">
+
+        <div class="article-title">
+            <span class="title-hover-animation">《Linux就该这么学》笔记</span>
+        </div>
+
+        
+            <div class="article-header">
+                <div class="avatar">
+                    <img src="/images/avatar.svg">
+                </div>
+                <div class="info">
+                    <div class="author">
+                        <span class="name">Makarov</span>
+                        
+                            <span class="author-label">Lv1</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fas fa-edit"></i>&nbsp;
+        <span class="pc">2022-05-01 15:53:31</span>
+        <span class="mobile">2022-05-01 15:53</span>
+    </span>
+    
+        <span class="article-categories article-meta-item">
+            <i class="fas fa-folder"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/categories/Linux/">Linux</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fas fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/Linux/">Linux</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fas fa-file-word"></i>&nbsp;<span>7.9k Words</span>
+        </span>
+    
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fas fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+                    </div>
+                </div>
+            </div>
+        
+
+        <div class="article-content markdown-body">
+            <h3 id="Linux就该这么学"><a href="#Linux就该这么学" class="headerlink" title="Linux就该这么学"></a>Linux就该这么学</h3><ol>
+<li><h4 id="安装部署"><a href="#安装部署" class="headerlink" title="安装部署"></a>安装部署</h4><ul>
+<li>初始化进程服务由以前的System V init改为systemd</li>
+<li>命令改用systemctl来管理系统服务，如service等</li>
+</ul>
+</li>
+<li><h4 id="第2章-新手必须掌握的Linux命令"><a href="#第2章-新手必须掌握的Linux命令" class="headerlink" title="第2章 新手必须掌握的Linux命令"></a>第2章 新手必须掌握的Linux命令</h4><ul>
+<li><p>两下Tab键</p>
+</li>
+<li><p>Ctrl+l组合键清屏</p>
+</li>
+<li><p>[root@linuxprobe～]# ：当前登录用户名为root，简要的主机名是linuxprobe；这里的～是指用户家目录；#表示管理员身份（如果是$则表示普通用户，相应的权限也会小一些）</p>
+</li>
+<li><p>pstree命令用于以树状图的形式展示进程之间的关系</p>
+</li>
+<li><p>ps命令用于查看系统中的进程状态</p>
+</li>
+<li><p>poweroff命令用于关闭系统</p>
+</li>
+<li><p>top命令用于动态地监视进程活动及系统负载等信息</p>
+</li>
+<li><p>pidof命令用于查询某个指定服务进程的PID号码值</p>
+</li>
+<li><p>nice命令用于调整进程的优先级</p>
+</li>
+<li><p>系统状态检测命令：</p>
+<ul>
+<li>ifconfig命令用于获取网卡配置与网络状态等信息</li>
+<li>uname -a命令用于查看系统内核版本与系统架构等信息</li>
+<li>uptime命令用于查看系统的负载信息：相当于top命令第一行</li>
+<li>free -h命令用于显示当前系统中内存的使用量信息：top命令第四和五行</li>
+<li>who命令用于查看当前登入主机的用户终端信息</li>
+<li>last命令用于调取主机的被访记录</li>
+<li>tracepath命令用于显示数据包到达目的主机时途中经过的所有路由信息</li>
+<li>netstat命令用于显示如网络连接、路由表、接口状态等的网络相关信息</li>
+<li>history命令用于显示执行过的命令历史</li>
+<li>sosreport命令用于收集系统配置及架构信息并输出诊断文档</li>
+</ul>
+</li>
+<li><p>文件位置搜索命令：</p>
+<ul>
+<li>“cd -”命令返回到上一次所处的目录</li>
+<li>“cd..”命令进入上级目录</li>
+<li>“cd～”命令切换到当前用户的家目录</li>
+<li>pwd命令用于显示用户当前所处的工作目录</li>
+<li>tree命令用于以树状图的形式列出目录内容及结构</li>
+<li>find命令用于按照指定条件来查找文件所对应的位置<ul>
+<li>-exec …… {};	后面可跟用于进一步处理搜索结果的命令</li>
+</ul>
+</li>
+<li>locate命令用于按照名称快速搜索文件所对应的位置，对于搜索功能来说速度快于find命令<ul>
+<li>第一次使用locate命令之前，记得先执行updatedb命令来生成索引数据库</li>
+</ul>
+</li>
+<li>whereis命令也是基于updatedb命令所生成的索引库文件进行搜索，它与locate命令的区别是不关心那些相同名称的文件，仅仅是快速找到对应的命令文件及其帮助文件所在的位置。</li>
+<li>which命令既不关心同名文件（find与locate），也不关心命令所对应的源代码和帮助文件（whereis），仅仅是想找到命令本身所在的路径</li>
+</ul>
+</li>
+<li><p>文本文件编辑命令：</p>
+<ul>
+<li><p>cat -n带行号查看小文本</p>
+</li>
+<li><p>head命令用于查看纯文本文件的前<em>N</em>行</p>
+</li>
+<li><p>tail命令用于查看纯文本文件的后<em>N</em>行或持续刷新文件的最新内容</p>
+<ul>
+<li>tail -f：能够持续刷新一个文件的内容，当想要实时查看最新的日志文件时，这特别有用</li>
+</ul>
+</li>
+<li><p>tr命令用于替换文本内容中的字符</p>
+</li>
+<li><p>wc命令用于统计指定文本文件的行数、字数或字节数</p>
+<ul>
+<li><p>表2-14                          wc命令中的参数以及作用</p>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>-l</td>
+<td>只显示行数</td>
+</tr>
+<tr>
+<td>-w</td>
+<td>只显示单词数</td>
+</tr>
+<tr>
+<td>-c</td>
+<td>只显示字节数</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+</li>
+<li><p>stat命令用于查看文件的具体存储细节和时间等信息</p>
+</li>
+<li><p>grep命令用于<strong>按行</strong>提取文本内容</p>
+<ul>
+<li>-n参数用来显示搜索到的信息的行号；</li>
+<li>-v参数用于反选信息（即没有包含关键词的所有信息行）。</li>
+</ul>
+</li>
+<li><p>cut命令用于按“列”提取文本内容</p>
+<ul>
+<li>-f参数设置需要查看的列数，还需要使用-d参数来设置间隔符号</li>
+</ul>
+</li>
+<li><p>diff命令用于比较多个文件之间内容的差异</p>
+<ul>
+<li>不仅可以使用–brief参数来确认两个文件是否相同，还可以使用-c参数来详细比较出多个文件的差异之处</li>
+</ul>
+</li>
+<li><p>uniq命令用于去除文本中连续的重复行</p>
+<ul>
+<li>中间不能夹杂其他文本行（非相邻的默认不会去重）</li>
+</ul>
+</li>
+<li><p>sort命令用于对文本内容进行再排序</p>
+<ul>
+<li>默认会按照字母顺序进行排序</li>
+<li>-u	去除重复行:无论内容行之间是否夹杂有其他内容，只要有两个一模一样的内容行立马就可以使用-u参数进行去重操作</li>
+<li>-n	以数值型排序</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>文件目录管理命令</p>
+<ul>
+<li><p>“.”表示当前目录，也可以用“.&#x2F;”表示；</p>
+</li>
+<li><p>touch命令用于创建空白文件或设置文件的时间</p>
+</li>
+<li><p>mkdir命令还可以结合-p参数来递归创建出具有嵌套层叠关系的文件目录:mkdir -p a&#x2F;b&#x2F;c&#x2F;d&#x2F;e</p>
+</li>
+<li><p>mv命令用于剪切或重命名文件</p>
+</li>
+<li><p>rm命令用于删除文件或目录</p>
+<ul>
+<li>-r	递归持续（用于目录）:适用于上面两个命令</li>
+<li>-f	强制执行</li>
+<li>-v	显示过程</li>
+</ul>
+</li>
+<li><p>dd命令用于按照指定大小和个数的数据块来复制文件或转换文件</p>
+</li>
+<li><p>file命令用于查看文件的类型</p>
+</li>
+<li><p>tar命令用于对文件进行打包压缩或解压</p>
+<ul>
+<li><table>
+<thead>
+<tr>
+<th>参数</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>-c</td>
+<td>创建压缩文件</td>
+</tr>
+<tr>
+<td>-x</td>
+<td>解开压缩文件</td>
+</tr>
+<tr>
+<td>-t</td>
+<td>查看压缩包内有哪些文件</td>
+</tr>
+<tr>
+<td>-z</td>
+<td>用Gzip压缩或解压</td>
+</tr>
+<tr>
+<td>-j</td>
+<td>用bzip2压缩或解压</td>
+</tr>
+<tr>
+<td>-v</td>
+<td>显示压缩或解压的过程</td>
+</tr>
+<tr>
+<td>-f</td>
+<td>目标文件名</td>
+</tr>
+<tr>
+<td>-p</td>
+<td>保留原始的权限与属性</td>
+</tr>
+<tr>
+<td>-P</td>
+<td>使用绝对路径来压缩</td>
+</tr>
+<tr>
+<td>-C</td>
+<td>指定解压到的目录</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>&#96;&#96;&#96;bash<br>压缩<br>tar czvf etc.tar.gz &#x2F;etc<br>解压<br>tar xzvf etc.tar.gz -C &#x2F;root&#x2F;etc</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">3. #### 第3章 管道符、重定向与环境变量</span><br><span class="line"></span><br><span class="line">   - 表3-1                     输入重定向中用到的符号及其作用</span><br><span class="line"></span><br><span class="line">     | 符号                 | 作用                                         |</span><br><span class="line">     | -------------------- | -------------------------------------------- |</span><br><span class="line">     | 命令 &lt; 文件          | 将文件作为命令的标准输入                     |</span><br><span class="line">     | 命令 &lt;&lt; 分界符       | 从标准输入中读入，直到遇见分界符才停止       |</span><br><span class="line">     | 命令 &lt; 文件1 &gt; 文件2 | 将文件1作为命令的标准输入并将标准输出到文件2 |</span><br><span class="line"></span><br><span class="line">     表3-2                     输出重定向中用到的符号及其作用</span><br><span class="line"></span><br><span class="line">     | 符号                                | 作用                                                         |</span><br><span class="line">     | ----------------------------------- | ------------------------------------------------------------ |</span><br><span class="line">     | 命令 &gt; 文件                         | 将标准输出重定向到一个文件中（清空原有文件的数据）           |</span><br><span class="line">     | 命令 2&gt; 文件                        | 将错误输出重定向到一个文件中（清空原有文件的数据）           |</span><br><span class="line">     | 命令 &gt;&gt; 文件                        | 将标准输出重定向到一个文件中（追加到原有内容的后面）         |</span><br><span class="line">     | 命令 2&gt;&gt; 文件                       | 将错误输出重定向到一个文件中（追加到原有内容的后面）         |</span><br><span class="line">     | 命令 &gt;&gt; 文件 2&gt;&amp;1  或 命令 &amp;&gt;&gt; 文件 | 将标准输出与错误输出共同写入到文件中（追加到原有内容的后面） |</span><br><span class="line"></span><br><span class="line">   - 标准输出重定向&gt;：只对**正常输出**的内容重定向到指定文件</span><br><span class="line"></span><br><span class="line">   - 错误输出重定向2&gt;：只对**错误输出**的内容重定向到指定文件</span><br><span class="line"></span><br><span class="line">   - 不区分标准输出和错误输出，只要命令有输出信息则全部追加写入到文件中。这就要用到&amp;&gt;&gt;操作符了</span><br><span class="line"></span><br><span class="line">   - 管道命令符的作用也可以用一句话概括为“**把前一个命令原本要输出到屏幕的信息当作后一个命令的标准输入**”。</span><br><span class="line"></span><br><span class="line">   - 表3-3                    Linux系统中的通配符及含义</span><br><span class="line"></span><br><span class="line">     | 通配符      | 含义           |</span><br><span class="line">     | ----------- | -------------- |</span><br><span class="line">     | *           | 任意字符       |</span><br><span class="line">     | ?           | 单个任意字符   |</span><br><span class="line">     | [a-z]       | 单个小写字母   |</span><br><span class="line">     | [A-Z]       | 单个大写字母   |</span><br><span class="line">     | [a-Z]       | 单个字母       |</span><br><span class="line">     | [0-9]       | 单个数字       |</span><br><span class="line">     | [[:alpha:]] | 任意字母       |</span><br><span class="line">     | [[:upper:]] | 任意大写字母   |</span><br><span class="line">     | [[:lower:]] | 任意小写字母   |</span><br><span class="line">     | [[:digit:]] | 所有数字       |</span><br><span class="line">     | [[:alnum:]] | 任意字母加数字 |</span><br><span class="line">     | [[:punct:]] | 标点符号       |</span><br><span class="line"></span><br><span class="line">   - 通配符创建多个文件时，需要使用大括号，并且字段之间用逗号间隔：</span><br><span class="line"></span><br><span class="line">     - ```bash</span><br><span class="line">       touch &#123;AA,BB,CC&#125;.conf</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>常用的转义字符:</p>
+<ul>
+<li><p>反斜杠（\）：使反斜杠后面的一个变量变为单纯的字符。</p>
+<p>单引号（’ ‘）：转义其中所有的变量为单纯的字符串。</p>
+<p>双引号（” “）：保留其中的变量属性，不进行转义处理。</p>
+<p>反引号（` `）：把其中的命令执行后返回结果。</p>
+</li>
+</ul>
+</li>
+<li><p>表3-4                    Linux系统中最重要的10个环境变量</p>
+<table>
+<thead>
+<tr>
+<th>变量名称</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>HOME</td>
+<td>用户的主目录（即家目录）</td>
+</tr>
+<tr>
+<td>SHELL</td>
+<td>用户在使用的Shell解释器名称</td>
+</tr>
+<tr>
+<td>HISTSIZE</td>
+<td>输出的历史命令记录条数</td>
+</tr>
+<tr>
+<td>HISTFILESIZE</td>
+<td>保存的历史命令记录条数</td>
+</tr>
+<tr>
+<td>MAIL</td>
+<td>邮件保存路径</td>
+</tr>
+<tr>
+<td>LANG</td>
+<td>系统语言、语系名称</td>
+</tr>
+<tr>
+<td>RANDOM</td>
+<td>生成一个随机数字</td>
+</tr>
+<tr>
+<td>PS1</td>
+<td>Bash解释器的提示符</td>
+</tr>
+<tr>
+<td>PATH</td>
+<td>定义解释器搜索用户执行命令的路径</td>
+</tr>
+<tr>
+<td>EDITOR</td>
+<td>用户默认的文本编辑器</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>如果工作需要，可以使用export命令将其提升为全局变量，这样其他用户也就可以使用它了</p>
+</li>
+<li><p>后续要是不使用这个变量了，则可执行unset命令把它取消掉</p>
+</li>
+</ul>
+</li>
+<li><h4 id="第4章-Vim编辑器与Shell命令脚本"><a href="#第4章-Vim编辑器与Shell命令脚本" class="headerlink" title="第4章 Vim编辑器与Shell命令脚本"></a>第4章 Vim编辑器与Shell命令脚本</h4><ul>
+<li><p>在每次运行Vim编辑器时，默认进入命令模式，此时需要先切换到输入模式后再进行文档编写工作。而每次在编写完文档后需要先返回命令模式，然后再进入末行模式，执行文档的保存或退出操作。在Vim中，无法直接从输入模式切换到末行模式。<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://www.linuxprobe.com/wp-content/uploads/2015/03/vim%E4%B8%8D%E5%90%8C%E6%A8%A1%E5%BC%8F%E9%97%B4%E7%9A%84%E5%88%87%E6%8D%A2.png"
+                     
+                ></p>
+</li>
+<li><p>表4-1                          命令模式中最常用的一些命令</p>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>dd</td>
+<td>删除（剪切）光标所在整行</td>
+</tr>
+<tr>
+<td>5dd</td>
+<td>删除（剪切）从光标处开始的<strong>5</strong>行</td>
+</tr>
+<tr>
+<td>yy</td>
+<td>复制光标所在整行</td>
+</tr>
+<tr>
+<td>5yy</td>
+<td>复制从光标处开始的<strong>5</strong>行</td>
+</tr>
+<tr>
+<td>n</td>
+<td>显示搜索命令定位到的下一个字符串</td>
+</tr>
+<tr>
+<td>N</td>
+<td>显示搜索命令定位到的上一个字符串</td>
+</tr>
+<tr>
+<td>u</td>
+<td>撤销上一步的操作</td>
+</tr>
+<tr>
+<td>p</td>
+<td>将之前删除（dd）或复制（yy）过的数据粘贴到光标下面的一行</td>
+</tr>
+<tr>
+<td>大写P</td>
+<td>将之前删除（dd）或复制（yy）过的数据粘贴到光标上面的一行</td>
+</tr>
+<tr>
+<td>G</td>
+<td>文件尾</td>
+</tr>
+<tr>
+<td>gg</td>
+<td>文件首</td>
+</tr>
+<tr>
+<td>home</td>
+<td>行首</td>
+</tr>
+<tr>
+<td>end</td>
+<td>行尾</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>表4-2                          末行模式中最常用的一些命令</p>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th align="left">作用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>:w</td>
+<td align="left">保存</td>
+</tr>
+<tr>
+<td>:q</td>
+<td align="left">退出</td>
+</tr>
+<tr>
+<td>:q!</td>
+<td align="left">强制退出（放弃对文档的修改内容）</td>
+</tr>
+<tr>
+<td>:wq!</td>
+<td align="left">强制保存退出（等于在命令模式下按❗<strong>shift+zz</strong>❗）</td>
+</tr>
+<tr>
+<td>:set nu</td>
+<td align="left">显示行号</td>
+</tr>
+<tr>
+<td>:set nonu</td>
+<td align="left">不显示行号</td>
+</tr>
+<tr>
+<td>:命令</td>
+<td align="left">执行该命令</td>
+</tr>
+<tr>
+<td>:整数</td>
+<td align="left">跳转到该行</td>
+</tr>
+<tr>
+<td>:s&#x2F;one&#x2F;two</td>
+<td align="left">将当前光标所在行的第一个one替换成two</td>
+</tr>
+<tr>
+<td>:s&#x2F;one&#x2F;two&#x2F;g</td>
+<td align="left">将当前光标所在行的所有one替换成two</td>
+</tr>
+<tr>
+<td>:%s&#x2F;one&#x2F;two&#x2F;g</td>
+<td align="left">将全文中的所有one替换成two</td>
+</tr>
+<tr>
+<td>?字符串</td>
+<td align="left">在文本中从下至上搜索该字符串</td>
+</tr>
+<tr>
+<td>&#x2F;字符串</td>
+<td align="left">在文本中从上至下搜索该字符串</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>命令模式切换到输入模式，a键与i键分别是在光标后面一位和光标当前位置切换到输入模式，而o键则是在光标的下面再创建一个空行</p>
+</li>
+<li><p>变量之间使用空格间隔。例如，$0对应的是当前Shell脚本程序的名称，$#对应的是总共有几个参数，$*对应的是所有位置的参数值，$?对应的是显示上一次命令的执行返回值，而$1、$2、$3……则分别对应着第N个位置的参数值</p>
+</li>
+<li><p>Shell脚本中的条件测试语法可以判断表达式是否成立，若条件<strong>成立</strong>则返回数字<strong>0</strong>，否则便返回非零值。</p>
+<ul>
+<li><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://www.linuxprobe.com/wp-content/uploads/2015/07/%E6%B5%8B%E8%AF%95%E8%AF%AD%E5%8F%A5%E6%A0%BC%E5%BC%8F.png"
+                     
+                ></li>
+<li>切记，条件表达式两边均应有一个空格。</li>
+</ul>
+</li>
+<li><p>条件测试语句可以分为4种：</p>
+<blockquote>
+<p>文件测试语句；</p>
+<p>逻辑测试语句；</p>
+<p>整数值比较语句；</p>
+<p>字符串比较语句。</p>
+</blockquote>
+</li>
+<li><p>表4-3                          文件测试所用的参数</p>
+<table>
+<thead>
+<tr>
+<th>操作符</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>-d</td>
+<td>测试文件是否为目录类型</td>
+</tr>
+<tr>
+<td>-e</td>
+<td>测试文件是否存在</td>
+</tr>
+<tr>
+<td>-f</td>
+<td>判断是否为一般文件</td>
+</tr>
+<tr>
+<td>-r</td>
+<td>测试当前用户是否有权限读取</td>
+</tr>
+<tr>
+<td>-w</td>
+<td>测试当前用户是否有权限写入</td>
+</tr>
+<tr>
+<td>-x</td>
+<td>测试当前用户是否有权限执行</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>逻辑“与”的运算符号是&amp;&amp;，它表示当前面的命令执行成功后才会执行它后面的命令</p>
+</li>
+<li><p>逻辑“或”||，表示当前面的命令执行失败后才会执行它后面的命令</p>
+</li>
+<li><p>第三种逻辑语句是“非”，在Linux系统中的运算符号是一个叹号（！），它表示把条件测试中的判断结果取相反值。</p>
+</li>
+<li><p>表4-4                         可用的整数比较运算符</p>
+<table>
+<thead>
+<tr>
+<th>操作符</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>-eq</td>
+<td>是否等于</td>
+</tr>
+<tr>
+<td>-ne</td>
+<td>是否不等于</td>
+</tr>
+<tr>
+<td>-gt</td>
+<td>是否大于</td>
+</tr>
+<tr>
+<td>-lt</td>
+<td>是否小于</td>
+</tr>
+<tr>
+<td>-le</td>
+<td>是否等于或小于</td>
+</tr>
+<tr>
+<td>-ge</td>
+<td>是否大于或等于</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>表4-5                        常见的字符串比较运算符</p>
+<table>
+<thead>
+<tr>
+<th>操作符</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&#x3D;</td>
+<td>比较字符串内容是否相同</td>
+</tr>
+<tr>
+<td>!&#x3D;</td>
+<td>比较字符串内容是否不同</td>
+</tr>
+<tr>
+<td>-z</td>
+<td>判断字符串内容是否为空</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>流程控制语句：</p>
+<ul>
+<li>if…then…else…elif…fi</li>
+</ul>
+</li>
+<li><p>运行SHELL脚本的两种方式：</p>
+<ol>
+<li>bash 脚本</li>
+<li>.&#x2F;脚本 通过完整路径</li>
+</ol>
+</li>
+<li><p>在Linux系统中，read是用来读取用户输入信息的命令，能够把接收到的用户输入信息赋值给后面的指定变量，-p参数用于向用户显示一些提示信息。</p>
+<ul>
+<li><pre><code class="bash">read -p &quot;Enter your score（0-100）：&quot; GRADE
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">   - /dev/null是一个被称作Linux黑洞的文件，把输出信息重定向到这个文件等同于删除数据（类似于没有回收功能的垃圾箱），可以让用户的屏幕窗口保持简洁。</span><br><span class="line"></span><br><span class="line">   - $()等价于反引号（\` \`）：把其中的命令执行后返回结果。</span><br><span class="line"></span><br><span class="line">   - 计划任务服务程序:</span><br><span class="line"></span><br><span class="line">     1. 一次性计划任务：可以用at命令实现这种功能，只需要写成“at时间”的形式就行。如果想要查看已设置好但还未执行的一次性计划任务，可以使用at -l命令；要想将其**删除**，可以使用“**atrm**任务序号”。</span><br><span class="line"></span><br><span class="line">        - 表4-6                        at命令的参数及其作用</span><br><span class="line"></span><br><span class="line">          | 参数 | 作用                   |</span><br><span class="line">          | ---- | ---------------------- |</span><br><span class="line">          | -f   | 指定包含命令的任务文件 |</span><br><span class="line">          | -q   | 指定新任务名称         |</span><br><span class="line">          | -l   | 显示待执行任务列表     |</span><br><span class="line">          | -d   | 删除指定待执行任务     |</span><br><span class="line">          | -m   | 任务执行后给用户发邮件 |</span><br><span class="line"></span><br><span class="line">        - 把计划任务写入Shell脚本中，当用户激活该脚本后再开始倒计时执行，而不是像上面那样在固定的时间（“at 23:30”命令）进行。一般我们会使用“at now +2 MINUTE”的方式进行操作，这表示2分钟（MINUTE）后执行这个任务，也可以将其替代成小时（HOUR）、日（DAY）、月（MONTH）等词汇</span><br><span class="line"></span><br><span class="line">     2. 长期性计划任务：那么Linux系统中默认启用的crond服务简直再适合不过了。创建、编辑计划任务的命令为crontab -e，查看当前计划任务的命令为crontab -l，删除某条计划任务的命令为crontab -r。另外，如果您是以管理员的身份登录的系统，还可以在crontab命令中加上-u参数来编辑他人的计划任务。</span><br><span class="line"></span><br><span class="line">        - 表4-7                        crontab命令的参数及其作用</span><br><span class="line"></span><br><span class="line">          | 参数 | 作用         |</span><br><span class="line">          | ---- | ------------ |</span><br><span class="line">          | -e   | 编辑计划任务 |</span><br><span class="line">          | -u   | 指定用户名称 |</span><br><span class="line">          | -l   | 列出任务列表 |</span><br><span class="line">          | -r   | 删除计划任务 |</span><br><span class="line"></span><br><span class="line">        - 在正式部署计划任务前，请先跟刘遄老师念一下口诀“分、时、日、月、星期 命令”。这是使用crond服务设置任务的参数格式（其格式见表4-8）。需要注意的是，如果有些字段没有被设置，则需要使用星号（*****）占位，如图4-24所示。![第4章 Vim编辑器与Shell命令脚本第4章 Vim编辑器与Shell命令脚本](https://www.linuxprobe.com/wp-content/uploads/2015/02/cron%E8%AE%A1%E5%88%92%E4%BB%BB%E5%8A%A1%E7%9A%84%E5%8F%82%E6%95%B0.png)</span><br><span class="line"></span><br><span class="line">        - 除了用逗号（,）来分别表示多个时间段，例如“8,9,12”表示8月、9月和12月。还可以用减号（-）来表示一段连续的时间周期（例如字段“日”的取值为“12-15”，则表示每月的12～15日）。还可以用除号（/）表示执行任务的间隔时间（例如“*/2”表示每隔2分钟执行一次任务）</span><br><span class="line"></span><br><span class="line">        - 如果在crond服务中需要同时包含多条计划任务的命令语句，应每行仅写一条。</span><br><span class="line"></span><br><span class="line">        - 尤其需要注意的是，在crond服务的计划任务参数中，所有命令一定要用绝对路径的方式来写，如果不知道绝对路径，请用whereis命令进行查询。</span><br><span class="line"></span><br><span class="line">        - 在crond服务的配置参数中，一般会像Shell脚本那样以#号开头写上注释信息，这样在日后回顾这段命令代码时可以快速了解其功能、需求以及编写人员等重要信息。</span><br><span class="line"></span><br><span class="line">        - 计划任务中的“分”字段必须有数值，绝对不能为空或是*号，而“日”和“星期”字段不能同时使用，否则就会发生冲突。</span><br><span class="line"></span><br><span class="line">5. #### 第5章 用户身份与文件权限</span><br><span class="line"></span><br><span class="line">   - &gt; **管理员UID为0**：系统的管理员用户。</span><br><span class="line">     &gt;</span><br><span class="line">     &gt; **系统用户UID为1～999**：Linux系统为了避免因某个服务程序出现漏洞而被黑客提权至整台服务器，默认服务程序会由独立的系统用户负责运行，进而有效控制被破坏范围。</span><br><span class="line">     &gt;</span><br><span class="line">     &gt; **普通用户UID从1000开始**：是由管理员创建的用于日常工作的用户。</span><br><span class="line"></span><br><span class="line">   - **id命令**:“id用户名”</span><br><span class="line"></span><br><span class="line">     - id命令用于显示用户的详细信息</span><br><span class="line"></span><br><span class="line">   - **useradd命令**:“useradd [参数] 用户名”</span><br><span class="line"></span><br><span class="line">     - useradd命令用于创建新的用户账户</span><br><span class="line"></span><br><span class="line">     - 表5-1                    useradd命令中的参数以及作用</span><br><span class="line"></span><br><span class="line">       | 参数 | 作用                                     |</span><br><span class="line">       | ---- | ---------------------------------------- |</span><br><span class="line">       | -d   | 指定用户的家目录（默认为/home/username） |</span><br><span class="line">       | -e   | 账户的到期时间，格式为YYYY-MM-DD.        |</span><br><span class="line">       | -u   | 指定该用户的默认UID                      |</span><br><span class="line">       | -g   | 指定一个初始的用户基本组（必须已存在）   |</span><br><span class="line">       | -G   | 指定一个或多个扩展用户组                 |</span><br><span class="line">       | -N   | 不创建与用户同名的基本用户组             |</span><br><span class="line">       | -s   | 指定该用户的默认Shell解释器              |</span><br><span class="line"></span><br><span class="line">   - **groupadd命令**:“groupadd [参数] 群组名”</span><br><span class="line"></span><br><span class="line">     - groupadd命令用于创建新的用户组</span><br><span class="line"></span><br><span class="line">   - **usermod命令**:“usermod [参数] 用户名”</span><br><span class="line"></span><br><span class="line">     - usermod命令用于修改用户的属性。用户的信息保存在/etc/passwd文件中，可以直接用文本编辑器来修改其中的用户参数项目，也可以用usermod命令修改已经创建的用户信息。</span><br><span class="line"></span><br><span class="line">     - 表5-2                      usermod命令中的参数以及作用</span><br><span class="line"></span><br><span class="line">       | 参数  | 作用                                                         |</span><br><span class="line">       | ----- | ------------------------------------------------------------ |</span><br><span class="line">       | -c    | 填写用户账户的备注信息                                       |</span><br><span class="line">       | -d -m | 参数-m与参数-d连用，可重新指定用户的家目录并自动把旧的数据转移过去 |</span><br><span class="line">       | -e    | 账户的到期时间，格式为YYYY-MM-DD                             |</span><br><span class="line">       | -g    | 变更所属用户组                                               |</span><br><span class="line">       | -G    | 变更扩展用户组                                               |</span><br><span class="line">       | -L    | 锁定用户禁止其登录系统                                       |</span><br><span class="line">       | -U    | 解锁用户，允许其登录系统                                     |</span><br><span class="line">       | -s    | 变更默认终端                                                 |</span><br><span class="line">       | -u    | 修改用户的UID                                                |</span><br><span class="line"></span><br><span class="line">   - **passwd命令**：“passwd [参数] 用户名”</span><br><span class="line"></span><br><span class="line">     - root管理员在Linux系统中修改自己或他人的密码时不需要验证旧密码，这一点特别方便。既然root管理员能够修改其他用户的密码，就表示其完全拥有该用户的管理权限。</span><br><span class="line"></span><br><span class="line">     - 表5-3                      passwd命令中的参数以及作用</span><br><span class="line"></span><br><span class="line">       | 参数    | 作用                                                         |</span><br><span class="line">       | ------- | ------------------------------------------------------------ |</span><br><span class="line">       | -l      | 锁定用户，禁止其登录                                         |</span><br><span class="line">       | -u      | 解除锁定，允许用户登录                                       |</span><br><span class="line">       | --stdin | 允许通过标准输入修改用户密码，如echo &quot;NewPassWord&quot; \| passwd --stdin Username |</span><br><span class="line">       | -d      | 使该用户可用空密码登录系统                                   |</span><br><span class="line">       | -e      | 强制用户在下次登录时修改密码                                 |</span><br><span class="line">       | -S      | 显示用户的密码是否被锁定，以及密码所采用的加密算法名称       |</span><br><span class="line"></span><br><span class="line">   - **userdel命令**：“userdel [参数] 用户名”</span><br><span class="line"></span><br><span class="line">     - userdel命令用于删除已有的用户账户。在执行删除操作时，该用户的家目录默认会保留下来，此时可以使用-r参数将其删除。在删除一个用户时，一般会建议保留他的家目录数据，以免有重要的数据被误删除。</span><br><span class="line"></span><br><span class="line">     - 表5-4                       userdel命令中的参数以及作用</span><br><span class="line"></span><br><span class="line">       | 参数 | 作用                     |</span><br><span class="line">       | ---- | ------------------------ |</span><br><span class="line">       | -f   | 强制删除用户             |</span><br><span class="line">       | -r   | 同时删除用户及用户家目录 |</span><br><span class="line"></span><br><span class="line">   - ##### **文件权限与归属**</span><br><span class="line"></span><br><span class="line">     - 对于一般文件来说，权限比较容易理解：“可读”表示能够读取文件的实际内容；“可写”表示能够编辑、新增、修改、删除文件的实际内容</span><br><span class="line"></span><br><span class="line">     - 对于目录文件来说，“可读”表示能够读取目录内的文件列表；“可写”表示能够在目录内新增、删除、重命名文件；而“可执行”则表示能够进入该目录。</span><br><span class="line"></span><br><span class="line">     - 表5-5         读写执行权限对于文件与目录可执行命令的区别</span><br><span class="line"></span><br><span class="line">       ![第5章 用户身份与文件权限第5章 用户身份与文件权限](https://www.linuxprobe.com/wp-content/uploads/2020/05/%E8%AF%BB%E5%86%99%E6%89%A7%E8%A1%8C%E6%9D%83%E9%99%90%E5%AF%B9%E4%BA%8E%E6%96%87%E4%BB%B6%E4%B8%8E%E7%9B%AE%E5%BD%95%E7%9A%84%E4%BD%9C%E7%94%A8-1024x168.png)</span><br><span class="line"></span><br><span class="line">     - 表5-6                       文件权限的字符与数字表示</span><br><span class="line"></span><br><span class="line">       ![第5章 用户身份与文件权限第5章 用户身份与文件权限](https://www.linuxprobe.com/wp-content/uploads/2020/05/%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%8E%E6%95%B0%E5%AD%97%E8%A1%A8%E7%A4%BA-1024x201.png)</span><br><span class="line"></span><br><span class="line">     - 常见的文件类型包括普通文件（-）、目录文件（d）、链接文件（l）、管道文件（p）、块设备文件（b）以及字符设备文件（c）。</span><br><span class="line"></span><br><span class="line">   - ##### **文件的特殊权限**</span><br><span class="line"></span><br><span class="line">     - **SUID**：能够让二进制程序的执行者临时拥有所有者的权限</span><br><span class="line"></span><br><span class="line">       - 权限由rwx变成了rws，其中x改变成s就意味着该文件被赋予了SUID权限。那么如果原本的权限是rw-呢？如果原先权限位上没有x执行权限，那么被赋予特殊权限后将变成大写的S。</span><br><span class="line"></span><br><span class="line">     - **SGID**：</span><br><span class="line"></span><br><span class="line">       - 当对二进制程序进行设置时，能够让执行者临时获取文件所属组的权限</span><br><span class="line">       - 当对目录进行设置时，则是让目录内新创建的文件自动继承该目录原有用户组的名称。</span><br><span class="line"></span><br><span class="line">     - chmod命令用于设置文件的一般权限及特殊权限，语法格式为“chmod [参数] 文件名”。</span><br><span class="line"></span><br><span class="line">       - ```bash</span><br><span class="line">         chmod 760 anaconda-ks.cfg </span><br><span class="line">         chmod -R g+s testdir</span><br></pre></td></tr></table></figure>
+
+- 使用chmod命令设置特殊权限的参数如表5-7所示。
+
+- 表5-7                     SUID、SGID、SBIT特殊权限的设置参数
+
+  | 参数 | 作用         |
+  | ---- | ------------ |
+  | u+s  | 设置SUID权限 |
+  | u-s  | 取消SUID权限 |
+  | g+s  | 设置SGID权限 |
+  | g-s  | 取消SGID权限 |
+  | o+t  | 设置SBIT权限 |
+  | o-t  | 取消SBIT权限 |
+</code></pre>
+</li>
+<li><p>chown命令用于设置文件的所有者和所有组，语法格式为“chown所有者:所有组 文件名”。</p>
+<ul>
+<li><pre><code class="bash">chown linuxprobe:linuxprobe anaconda-ks.cfg 
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">  - chmod和chown命令是用于修改文件属性和权限的最常用命令，它们还有一个特别的共性，就是针对目录进行操作时需要加上**大写参数-R**来表示递归操作，即对目录内所有的文件进行整体操作。</span><br><span class="line"></span><br><span class="line">  - **SBIT**:SBIT特殊权限位可确保用户只能删除自己的文件，而不能删除其他用户的文件。换句话说，当对某个目录设置了SBIT粘滞位权限后，那么该目录中的文件就只能被其所有者执行删除操作了。</span><br><span class="line"></span><br><span class="line">    - 当目录被设置SBIT特殊权限位后，文件的其他用户权限部分的x执行权限就会被替换成t或者T—原本有x执行权限则会写成t，原本没有x执行权限则会被写成T。</span><br><span class="line">    - 文件能否被删除并不取决于自身的权限，而是看其所在目录是否有写入权限</span><br><span class="line"></span><br><span class="line">  - 数字表示法是由“特殊权限+一般权限”构成的。SUID、SGID与SBIT也有对应的数字表示法，分别为4、2、1。</span><br><span class="line"></span><br><span class="line">    - 如果权限是“rwsrwSr--”呢？首先不要慌，大写S表示原先没有执行权限，因此一般权限为rwxrw-r--，将其转换为数字表示法后结果是764。带有的SUID和SGID特殊权限的数字法表示是4和2，心算得出结果是6，合并后的结果为6764。</span><br><span class="line"></span><br><span class="line">- ##### **文件的隐藏属性**：</span><br><span class="line"></span><br><span class="line">  - 隐藏权限，即被隐藏起来的权限，默认情况下不能直接被用户发觉。</span><br><span class="line"></span><br><span class="line">  1. **chattr命令**：chattr命令用于设置文件的隐藏权限，语法格式为“chattr [参数] 文件名称”</span><br><span class="line"></span><br><span class="line">     - 如果想要把某个隐藏功能添加到文件上，则需要在命令后面追加“+参数”，如果想要把某个隐藏功能移出文件，则需要追加“-参数”。</span><br><span class="line"></span><br><span class="line">     - 表5-8                 chattr命令中的参数及其作用</span><br><span class="line"></span><br><span class="line">       | 参数 | 作用                                                         |</span><br><span class="line">       | ---- | ------------------------------------------------------------ |</span><br><span class="line">       | i    | 无法对文件进行修改；若对目录设置了该参数，则仅能修改其中的子文件内容而不能新建或删除文件 |</span><br><span class="line">       | a    | 仅允许补充（追加）内容，无法覆盖/删除内容（Append Only）     |</span><br><span class="line">       | S    | 文件内容在变更后立即同步到硬盘（sync）                       |</span><br><span class="line">       | s    | 彻底从硬盘中删除，不可恢复（用0填充原文件所在硬盘区域）      |</span><br><span class="line">       | A    | 不再修改这个文件或目录的最后访问时间（atime）                |</span><br><span class="line">       | b    | 不再修改文件或目录的存取时间                                 |</span><br><span class="line">       | D    | 检查压缩文件中的错误                                         |</span><br><span class="line">       | d    | 使用dump命令备份时忽略本文件/目录                            |</span><br><span class="line">       | c    | 默认将文件或目录进行压缩                                     |</span><br><span class="line">       | u    | 当删除该文件后依然保留其在硬盘中的数据，方便日后恢复         |</span><br><span class="line">       | t    | 让文件系统支持尾部合并（tail-merging）                       |</span><br><span class="line">       | x    | 可以直接访问压缩文件中的内容                                 |</span><br><span class="line"></span><br><span class="line">  2. **lsattr命令**：lsattr命令用于查看文件的隐藏权限，英文全称为“list attributes”，语法格式为“lsattr [参数] 文件名称”。</span><br><span class="line"></span><br><span class="line">- ##### **文件访问控制列表**</span><br><span class="line"></span><br><span class="line">  1. **setfacl命令**：</span><br><span class="line"></span><br><span class="line">     - setfacl命令用于管理文件的ACL权限规则，英文全称为“set files ACL”，语法格式为“setfacl [参数] 文件名称”。</span><br><span class="line"></span><br><span class="line">     - 针对目录文件需要使用-R递归参数；针对普通文件则使用-m参数；如果想要删除某个文件的ACL，则可以使用-b参数。</span><br><span class="line"></span><br><span class="line">     - 表5-9                       setfacl命令中的参数以及作用</span><br><span class="line"></span><br><span class="line">       | 参数 | 作用             |</span><br><span class="line">       | ---- | ---------------- |</span><br><span class="line">       | -m   | 修改权限         |</span><br><span class="line">       | -M   | 从文件中读取权限 |</span><br><span class="line">       | -x   | 删除某个权限     |</span><br><span class="line">       | -b   | 删除全部权限     |</span><br><span class="line">       | -R   | 递归子目录       |</span><br><span class="line"></span><br><span class="line">     - ```bash</span><br><span class="line">       setfacl -Rm u:linuxprobe:rwx /root</span><br></pre></td></tr></table></figure>
+</code></pre>
+</li>
+<li><p>常用的ls命令是看不到ACL信息的，但是却可以看到文件权限的最后一个点（**.<strong>）变成了加号（</strong>+**），这就意味着该文件已经设置了ACL。</p>
+<ul>
+<li>&#96;&#96;&#96;bash<br>[root@linuxprobe ~]# ls -ld &#x2F;root<br>dr-xrwx—+ 14 root root 4096 May 4 2020 &#x2F;root<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">   - 要清空所有ACL权限，请用-b参数；要删除某一条指定的权限，就用-x参数</span><br><span class="line"></span><br><span class="line">2. **getfacl命令**</span><br><span class="line"></span><br><span class="line">   - getfacl命令用于查看文件的ACL权限规则，英文全称为“get files ACL”，语法格式为“getfacl [参数] 文件名称”。</span><br><span class="line"></span><br><span class="line">3. **操作前备份一下，总是好的习惯**</span><br><span class="line"></span><br><span class="line">   - getfacl在备份目录权限时不能使用绝对路径的形式，因此我们需要先切换到最上层根目录，然后再进行操作。输出重定向操作，可以轻松实现权限的备份</span><br><span class="line"></span><br><span class="line">     - ```bash</span><br><span class="line">       [root@linuxprobe ~]# cd /</span><br><span class="line">       [root@linuxprobe /]# getfacl -R home &gt; backup.acl</span><br><span class="line">       [root@linuxprobe /]# ls -l </span><br><span class="line">       -rw-r--r--. 1 root root 834 Jul 18 14:14 backup.acl</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li><p>ACL权限的恢复也很简单，使用的是–restore参数。由于在备份时已经指定是对&#x2F;home目录进行操作，所以不需要写对应的目录名称，它能够自动找到要恢复的对象</p>
+<ul>
+<li>&#96;&#96;&#96;bash<br>[root@linuxprobe &#x2F;]# setfacl –restore backup.acl<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">- ##### **su命令与sudo服务**</span><br><span class="line"></span><br><span class="line">  1. su:</span><br><span class="line"></span><br><span class="line">     - ```bash</span><br><span class="line">       [root@linuxprobe ~]# su - linuxprobe</span><br></pre></td></tr></table></figure></li>
+</ul>
+<p>su命令与用户名之间有一个减号（-），这意味着完全切换到新的用户，即把环境变量信息也变更为新用户的相应信息，而不是保留原始的信息。强烈建议在切换用户身份时添加这个减号（-）。</p>
+</li>
+<li><p>当从root管理员切换到普通用户时是不需要密码验证的，而从普通用户切换成root管理员就需要进行密码验证了</p>
+</li>
+</ul>
+</li>
+</ul>
+<ol start="2">
+<li><p>sudo:</p>
+<ul>
+<li><p>sudo命令用于给普通用户提供额外的权限，语法格式为“sudo [参数] 用户名”。</p>
+</li>
+<li><p><strong>授权原则：</strong>在保证普通用户完成相应工作的前提下，尽可能少地赋予额外的权限。</p>
+</li>
+<li><p>表5-10                     sudo命令中的可用参数以及作用</p>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>-h</td>
+<td>列出帮助信息</td>
+</tr>
+<tr>
+<td>-l</td>
+<td>列出当前用户可执行的命令</td>
+</tr>
+<tr>
+<td>-u 用户名或UID值</td>
+<td>以指定的用户身份执行命令</td>
+</tr>
+<tr>
+<td>-k</td>
+<td>清空密码的有效时间，下次执行sudo时需要再次进行密码验证</td>
+</tr>
+<tr>
+<td>-b</td>
+<td>在后台执行指定的命令</td>
+</tr>
+<tr>
+<td>-p</td>
+<td>更改询问密码的提示语</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>visudo命令用于编辑、配置用户sudo的权限文件，语法格式为“visudo [参数]”。visudo命令只有root管理员才可以执行</p>
+<ul>
+<li><p>在配置权限文件时，按照下面的格式在第101行（大约）填写上指定的信息。</p>
+<blockquote>
+<p><strong>谁可以使用 允许使用的主机 &#x3D; （以谁的身份） 可执行命令的列表</strong></p>
+<p><strong>谁可以使用：</strong>稍后要为哪位用户进行命令授权。</p>
+<p><strong>允许使用的主机：</strong>可以填写ALL表示不限制来源的主机，亦可填写如192.168.10.0&#x2F;24这样的网段限制来源地址，使得只有从允许网段登录时才能使用sudo命令。</p>
+<p><strong>以谁的身份：</strong>可以填写ALL表示系统最高权限，也可以是另外一位用户的名字。</p>
+<p><strong>可执行命令的列表：</strong>可以填写ALL表示不限制命令，亦可填写如&#x2F;usr&#x2F;bin&#x2F;cat这样的文件名称来限制命令列表，多个命令文件之间用逗号（,）间隔。</p>
+</blockquote>
+</li>
+<li><p>如果需要让某个用户只能使用root管理员的身份执行指定的命令，切记一定要给出该命令的绝对路径，否则系统会识别不出来。这时，可以先使用whereis命令找出命令所对应的保存路径</p>
+</li>
+<li><p>每次执行sudo命令都要输入一次密码其实也挺麻烦的，这时可以添加NOPASSWD参数，使得用户下次再执行sudo命令时就不用密码验证</p>
+<ul>
+<li><pre><code class="bash">linuxprobe ALL=(ALL) NOPASSWD:/usr/bin/cat,/usr/sbin/reboot
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+</ol>
+
+        </div>
+
+        
+            <div class="post-copyright-info">
+                <div class="article-copyright-info-container">
+    <ul>
+        <li>Post title：《Linux就该这么学》笔记</li>
+        <li>Post author：Makarov</li>
+        <li>Create time：2022-05-01 15:53:31</li>
+        <li>
+            Post link：https://makarovd5.github.io/2022/05/01/《Linux就该这么学》笔记/
+        </li>
+        <li>
+            Copyright Notice：All articles in this blog are licensed under <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> unless stating additionally.
+        </li>
+    </ul>
+</div>
+
+            </div>
+        
+
+        
+            <ul class="post-tags-box">
+                
+                    <li class="tag-item">
+                        <a href="/tags/Linux/">#Linux</a>&nbsp;
+                    </li>
+                
+            </ul>
+        
+
+        
+            <div class="article-nav">
+                
+                    <div class="article-prev">
+                        <a class="prev"
+                           rel="prev"
+                           href="/2022/05/01/%E7%97%A4%E7%96%AE/"
+                        >
+                            <span class="left arrow-icon flex-center">
+                              <i class="fas fa-chevron-left"></i>
+                            </span>
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">痤疮</span>
+                                <span class="post-nav-item">Prev posts</span>
+                            </span>
+                        </a>
+                    </div>
+                
+                
+                    <div class="article-next">
+                        <a class="next"
+                           rel="next"
+                           href="/2022/05/01/Keep%E4%B8%BB%E9%A2%98%E9%9C%80%E8%A6%81%E5%AE%89%E8%A3%85%E7%9A%84%E6%8F%92%E4%BB%B6/"
+                        >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">Keep主题需要安装的插件</span>
+                                <span class="post-nav-item">Next posts</span>
+                            </span>
+                            <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+        
+            <div class="comment-container">
+                <div class="comments-container">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+        <i class="fas fa-comments">&nbsp;Comments</i>
+    </div>
+    
+
+        
+            
+    <div class="valine-container">
+        <script data-pjax
+                src="//cdn.jsdelivr.net/npm/valine@latest/dist/Valine.min.js"></script>
+        <div id="vcomments"></div>
+        <script data-pjax>
+            function loadValine() {
+                new Valine({
+                    el: '#vcomments',
+                    appId: '8D1b9t2cR4GHX1haPweuTboM-gzGzoHsz',
+                    appKey: 'JPfUErz7BSbEySwRwwm23jLd',
+                    meta: ['nick', 'mail', 'link'],
+                    avatar: 'wavatar',
+                    enableQQ: true,
+                    placeholder: '😜 尽情吐槽吧~',
+                    lang: 'en'.toLowerCase()
+                });
+
+                function getAuthor(language) {
+                    switch (language) {
+                        case 'en':
+                            return 'Author';
+                        case 'zh-CN':
+                            return '博主';
+                        default:
+                            return 'Master';
+                    }
+                }
+
+                // Add "Author" identify
+                const getValineDomTimer = setInterval(() => {
+                    const vcards = document.querySelectorAll('#vcomments .vcards .vcard');
+                    if (vcards.length > 0) {
+                        let author = 'Makarov';
+
+                        if (author) {
+                            for (let vcard of vcards) {
+                                const vnick_dom = vcard.querySelector('.vhead .vnick');
+                                const vnick = vnick_dom.innerHTML;
+                                if (vnick === author) {
+                                    vnick_dom.innerHTML = `${vnick} <span class="author">${getAuthor(KEEP.hexo_config.language)}</span>`
+                                }
+                            }
+                        }
+                        clearInterval(getValineDomTimer);
+                    } else {
+                        clearInterval(getValineDomTimer);
+                    }
+                }, 2000);
+            }
+
+            if ('true') {
+                const loadValineTimeout = setTimeout(() => {
+                    loadValine();
+                    clearTimeout(loadValineTimeout);
+                }, 1000);
+            } else {
+                window.addEventListener('DOMContentLoaded', loadValine);
+            }
+        </script>
+    </div>
+
+
+
+        
+    
+</div>
+
+            </div>
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            <footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info info-item">
+            &copy;
+            
+            2022&nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;<a href="/">Makarov</a>
+        </div>
+        
+            <script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <div class="website-count info-item">
+                
+                    <span id="busuanzi_container_site_uv">
+                        Visitor Count&nbsp;<span id="busuanzi_value_site_uv"></span>&ensp;
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv">
+                        Totalview&nbsp;<span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="theme-info info-item">
+            Powered by <a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;|&nbsp;Theme&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.4.5</a>
+        </div>
+        
+        
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="tools-item page-aside-toggle">
+                <i class="fas fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+            <li class="go-comment">
+                <i class="fas fa-comment"></i>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-expand-width flex-center">
+            <i class="fas fa-arrows-alt-h"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="fas fa-arrow-up"></i>
+            </li>
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    
+        <aside class="page-aside">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        <ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Linux%E5%B0%B1%E8%AF%A5%E8%BF%99%E4%B9%88%E5%AD%A6"><span class="nav-number">1.</span> <span class="nav-text">Linux就该这么学</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2"><span class="nav-number">1.1.</span> <span class="nav-text">安装部署</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%AC%AC2%E7%AB%A0-%E6%96%B0%E6%89%8B%E5%BF%85%E9%A1%BB%E6%8E%8C%E6%8F%A1%E7%9A%84Linux%E5%91%BD%E4%BB%A4"><span class="nav-number">1.2.</span> <span class="nav-text">第2章 新手必须掌握的Linux命令</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%AC%AC4%E7%AB%A0-Vim%E7%BC%96%E8%BE%91%E5%99%A8%E4%B8%8EShell%E5%91%BD%E4%BB%A4%E8%84%9A%E6%9C%AC"><span class="nav-number">1.3.</span> <span class="nav-text">第4章 Vim编辑器与Shell命令脚本</span></a></li></ol></li></ol>
+    </div>
+</div>
+        </aside>
+    
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="Search..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="popup-btn-close">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+
+<script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/utils.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/main.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/header-shrink.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/back2top.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/dark-light-toggle.js"></script>
+
+
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/local-search.js"></script>
+
+
+
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/code-copy.js"></script>
+
+
+
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/lazyload.js"></script>
+
+
+<div class="post-scripts pjax">
+    
+        <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/left-side-toggle.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/libs/anime.min.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/toc.js"></script>
+    
+</div>
+
+
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/libs/pjax.min.js"></script>
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        window.pjax = new Pjax({
+            selectors: [
+                'head title',
+                '.page-container',
+                '.pjax'
+            ],
+            history: true,
+            debug: false,
+            cacheBust: false,
+            timeout: 0,
+            analytics: false,
+            currentUrlFullReload: false,
+            scrollRestoration: false,
+            // scrollTo: true,
+        });
+
+        document.addEventListener('pjax:send', () => {
+            KEEP.utils.pjaxProgressBarStart();
+        });
+
+        document.addEventListener('pjax:complete', () => {
+            KEEP.utils.pjaxProgressBarEnd();
+            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
+            KEEP.refresh();
+        });
+    });
+</script>
+
+
+
+</body>
+</html>
